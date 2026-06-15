@@ -34,6 +34,12 @@ streamlit run app.py
 
 Open the URL shown by Streamlit in your browser.
 
+## Example recommendation output
+
+![Recommendations screenshot](screenshots/recommendations.png)
+
+*Recommendation results for a selected movie, showing the top 5 suggested titles with posters.*
+
 ## Notes & configuration
 
 - The app calls The Movie Database (TMDB) API to fetch poster images. The API key should be stored in a `.env` file as `TMDB_API_KEY=your_key`. Copy `.env.example` to `.env`.
